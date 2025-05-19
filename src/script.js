@@ -39,7 +39,7 @@ function showContacts(contactBook, groupToShow) { // Rör ej denna kod
     if (contactBook.contacts[i].group === groupToShow)
   // Loopar igenom alla kontakter och jämför grupp
    
-    return (`${contactBook.contacts[i].name} och ${contactBook.contacts[i].phone}`) // här ska sträng med namn och tekefonnummer visas i form av string interpolation
+    return (`Namn: ${contactBook.contacts[i].name}, Telefon: ${contactBook.contacts[i].phone}`) // här ska sträng med namn och tekefonnummer visas i form av string interpolation
 
   }
 }
